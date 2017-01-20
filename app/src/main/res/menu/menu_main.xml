@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="smarttouch.tekus_sensitive_move.Alarmas">
+    <item
+        android:title="@string/Actualizar"
+        android:id="@+id/action_update"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_sync_white_24dp"
+        android:visible="true" />
+
+</menu>

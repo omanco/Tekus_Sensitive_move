@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="smarttouch.tekus_sensitive_move">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Alarmas"
+            android:label="@string/app_nameBar"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WebApi_Volley" />
+
+        <provider
+            android:name=".Base_datos_y_contrato.MyContentProvider"
+            android:authorities="smarttouch.tekus_sensitive_move"
+            android:enabled="true"
+            android:exported="true" />
+
+        <service
+            android:name=".ServicioAcelerometro"
+            android:exported="false"></service>
+    </application>
+
+</manifest>

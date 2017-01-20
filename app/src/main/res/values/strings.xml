@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tekus_ Sensitive_move</string>
+
+    //string de lista de alarmas
+    <string name="fecha">YYYY-MM-DD   HH:MM</string>
+    <string name="informacion">Informacion </string>
+    <string name="notificationID">ID</string>
+    <string name="duration">duration</string>
+
+    // string botones
+    <string name="eliminar">Eliminar</string>
+    <string name="title_activity_prueba">prueba</string>
+    <string name="app_nameBar">Alarmas Tekus</string>
+
+    //PREFERENCIAS
+    <string name="Servidor">URL</string>
+    <string name="Id_temporal">IdTemporal</string>
+
+    <string name="action_update">action_update</string>
+    <string name="Actualizar">Actualizar</string>
+</resources>

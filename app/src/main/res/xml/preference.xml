@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Configuracion Servidor">
+
+        <EditTextPreference android:title="SERVIDOR"
+            android:key="@string/Servidor"
+            android:inputType="textWebEditText"
+            android:dialogTitle="Server"
+            android:defaultValue="http://proyectos.tekus.co/Test/api/notifications/"
+            >
+
+        </EditTextPreference>
+
+        <EditTextPreference android:title="ID_TEMPORAL"
+            android:key="NOTIFICACIONID_INICIAL"
+            android:dialogTitle="Id_temporal"
+            android:defaultValue="0"
+            >
+
+        </EditTextPreference>
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>
